@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.features{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.features .box{
+    height: 400px;
+    width: 250px;
+    display: inline-block;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(220, 16%, 96%);
+    
+}
+h1{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 30px;
+}
+p{
+    font-family: "Public Sans", sans-serif;
+    color: hsl(220, 16%, 96%);
+    font-size: 18px;
+}
