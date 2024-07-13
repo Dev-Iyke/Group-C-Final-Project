@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  /*Colors */
+ 
+ /*  Primary */
+   --Dark-Blue : hsl(233, 26%, 24%);
+   --Lime-Green: hsl(136, 65%, 51%);
+   --Bright-Cyan: hsl(192, 70%, 51%);
+     
+   /* Neutral */
+ --Grayish-Blue: hsl(220, 16%, 96%);
+ --Light-Grayish-Blue: hsl(0, 0%, 98%);
+ --Very-Light-Gray: hsl(0, 0%, 98%);
+ --White: hsl(0, 0%, 100%);
+ 
+   /* Max-width (Responsiveness) */
+   --Mobile: 375px;
+   --Desktop: 1440px;
+ 
+   /* Font */
+   --Font-size: 18px;
+   --font-fam: "Public Sans", sans-serif;
+  --weight3:300;
+  --weight4:400;
+  --weight7:700;
+ }
+main{
+  overflow: hidden;
+}
+ main .hero{
+   background-color: var(--White);
+   margin: auto;
+   height: 500px;
+   width: 95%;
+   overflow: visible;
+ }
+ main .hero .container{
+   max-width: var(--Desktop);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 455px;
+ }
+ main .hero .container .text-content{
+   line-height: 1.2;
+   font-family: var(--font-fam);
+   font-size: var(--Font-size);
+   width: 35%;
+   height: 100%;
+ }
+ 
+ 
+ main .hero .container .text-content h1{
+   color: var(--Dark-Blue);
+   font-weight: var(--weight7);
+ }
+ main .hero .container .text-content p{
+   color: var(--Dark-Blue);
+   padding: 40px 0px;
+   width: 100%;
+   font-weight: var(--weight3);
+ }
+ main .hero .container .text-content a{
+   display: inline-block;
+   background: linear-gradient(to right, var(--Lime-Green), var(--Bright-Cyan));
+   color: var(--White);
+   padding:15px 20px;
+   border-radius: 30px;
+   text-decoration: none;
+   border: 20px;
+ }
+ main .hero .container .text-content a:hover{
+   opacity: 0.5;
+ }
+ main .hero .container .mockup{
+   background-image: url(../IMG/bg-intro-desktop.svg);
+   background-repeat: no-repeat;
+   background-position:  top right;
+   background-size: 100%;
+   position: relative;
+   right: -150px;
+   height: 800px;
+   bottom: -3px;
+   align-self:first baseline;
+ top:-120px
+
+   
+ }
+ 
+ main .hero .container .mockup img{
+  position: relative;
+width: 75%;
+  /* margin: auto; */
+  z-index: 10;
+  right: -120px;
+ }
+ 
