@@ -10,38 +10,38 @@
     --white: hsl(0, 0%, 100%);
     }
     
-    main{
+    .main{
     width: 100%;
     height: 80vh;
     }
     
-    main .articles{
+    .main .articles{
     width: 100%;
     height: 100%;
     border: 2px solid tomato;
     }
-    main .articles .container{
+    .main .articles .container{
     width: 80%;
     border: 2px solid teal;
     margin: auto;
     height: 100%;
     }
 
-    main .articles .title{
+    .main .articles .title{
     font-size: 2rem;
     }
     
-    main .articles .container .small{
+    .main .articles .container .small{
     border: 2px solid green;
     height: 20%;
     }
     
-    main .articles .container .container-flex{
+    .main .articles .container .container-flex{
     border: 2px solid blue;
     height: 80%;
     display:flex;
     }
-    main .articles .container .container-flex > div{
+    .main .articles .container .container-flex > div{
     width: 25%;
     border: 2px solid gold;
     display: flex;
