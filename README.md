@@ -1,4 +1,4 @@
-git# Group-C-Final-Project
+# Group-C-Final-Project
 
 ## Contributing Guidelines
 
