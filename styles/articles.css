@@ -41,10 +41,10 @@ padding-top: 1rem;
 color: var(--dark-blue);
 }
 
-.main .articles .container .small{
-/* border: 2px solid green; */
-/* height: 20%; */
-}
+/* .main .articles .container .small{
+border: 2px solid green;
+height: 20%;
+} */
 
 .main .articles .container .container-flex{
 border: 2px solid blue;
