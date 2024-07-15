@@ -13,7 +13,7 @@
     font-weight: 400;
 }
 .features-container>p{
-    font-size: .85rem;
+    font-size: .9rem;
     font-weight: 400;
     color: hsl(233, 8%, 62%);
     padding: 1.2rem 0 1rem;
@@ -39,7 +39,7 @@
     font-weight: 400;
 }
 .features-list>div p{
-    font-size: .8rem;
+    font-size: .85rem;
     font-weight: 400;
     color: hsl(233, 8%, 62%);
     width: 90%;
