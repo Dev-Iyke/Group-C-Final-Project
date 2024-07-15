@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.features{
+    background-color: hsl(220, 16%, 96%);
+}
+.features-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 6.5rem 0 3.5rem;
+}
+.features-container>h1{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.features-container>p{
+    font-size: .9rem;
+    font-weight: 400;
+    color: hsl(233, 8%, 62%);
+    padding: 1.2rem 0 1rem;
+}
+.features-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+    padding-top: 2rem;
+}
+.features-list>div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.features-list>div img{
+    width: 50px;
+    height: 50px;
+}
+
+.features-list>div h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.features-list>div p{
+    font-size: .85rem;
+    font-weight: 400;
+    color: hsl(233, 8%, 62%);
+    width: 90%;
+}
+
+@media (max-width: 800px){
+    .features-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .features-container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 448px){
+    .features-container{
+        width: 90%;
+    }
+    .features-list{
+        grid-template-columns: 1fr;
+    }
+    .features-list>div{
+        align-items: center;
+    }
+    .features-list>div p{
+        width: 100%;
+        text-align: center;
+    }
+}
