@@ -30,14 +30,20 @@
  }
  main{
 overflow: hidden;
+max-width: 1440px;
+z-index: 20;
+}
+
+main .hero{
   background: linear-gradient(to bottom, var(--Light-Grayish-Blue), var(--White) );
-font-size: var(--Font-size);
-font-family: var(--font-fam); 
+  font-size: var(--Font-size);
+  font-family: var(--font-fam); 
+  
 }
 
 
 main .hero .container{
-  max-width: 1440px;
+  
  padding-left: 5%;
   display: flex;
   justify-content: space-between;
@@ -46,23 +52,25 @@ main .hero .container{
   background-position-y:-45vh;
   background-position-x:37vw;
   background-size: cover;
-  height: 450px;
+  height: 700px;
   overflow: visible;
 }
 
 main .container img{
   margin-right: -100px;
-  z-index: 10;
+  z-index: 8;
 }
 
 main .container .text-content{
   width: 35%;
-  display: flex;
 }
 main .container .text-content .text{
+  display: flex;
   width: 100%;
-  justify-self: center;
-  align-self: center;
+  flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-start;
+ height: 50%;
 }
 main .container .text-content .text h1{
   color: var(--Dark-Blue);
@@ -75,8 +83,7 @@ main .hero .container .text-content .text p{
   color: var(--Dark-Blue);
    font-size: var(--Font-size);
    font-weight: var(--weight3);
-   opacity: 0.5;
-   z-index: 5;
+   color: #9698a6;
 }
 main .hero .container .text-content .text a{
   display: inline-block;
@@ -86,33 +93,45 @@ main .hero .container .text-content .text a{
   border-radius: 30px;
   text-decoration: none;
   border: 20px;
+  margin-top: 10px;
   /* opacity: 1; */
 }
 main .hero .container .text-content .text a:hover{
   opacity: 0.5;
 }
+
 @media (max-width:884px){
 
   main{
-    
+    overflow: hidden;
+  }
+
+  main .hero{
+
+    top: 78px;
+    overflow: hidden;
+    z-index: 1;
+
+
+
   }
   main .hero .container{
     background: url(../IMG/bg-intro-desktop.svg)  no-repeat right;
    background-size: 700px;
    margin-right: -250px;
    background-position-y: -50px;
-
+   height: 400px;
   
   }
   main .hero .container img{
+    /* position: absolute; */
+    margin-bottom: 10px;
     width: 50%;
+    z-index: 0;
+
   }
 
-  main .container img{
-    margin-right: 0px;
 
-
-}
 }
 @media (max-width:780px){
 
@@ -123,7 +142,6 @@ main .hero .container .text-content .text a:hover{
   
      
     main .hero .container{
-    
       padding: 20px;
       display: flex;
       flex-direction: column-reverse;
@@ -187,7 +205,7 @@ main .hero .container .text-content .text a:hover{
       background: url(../IMG/bg-intro-mobile.svg)  no-repeat top center/cover;
       overflow: visible;
       margin-right: 0;
-      height: 700px;
+      height: 1000px;
       background-position-y: -300px;
     }
     
@@ -198,7 +216,7 @@ main .hero .container .text-content .text a:hover{
     margin-top: -140px;
     }
     main .hero .container .text-content{
-      margin-top: 30px;
+      margin-top: 50px;
       width: 100%;
       margin: auto;
    
@@ -211,7 +229,6 @@ main .hero .container .text-content .text a:hover{
       align-items: center;
       width: 90%;
       margin: auto;
-  
     }
 
     main .hero .container .text-content .text h1{
