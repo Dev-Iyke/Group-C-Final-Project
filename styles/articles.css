@@ -81,6 +81,9 @@ border-radius: 5px;
 }
 
 @media (max-width: 448px){
+    .articles .container{
+        width: 85%;
+        }
     .articles .container-flex{
         grid-template-columns: 1fr;
     }
