@@ -45,12 +45,12 @@
     width: 90%;
 }
 
-@media (max-width: 800px){
+@media (max-width: 850px){
     .features-list{
         grid-template-columns: repeat(2, 1fr);
     }
     .features-container{
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -63,6 +63,11 @@
     }
     .features-list>div{
         align-items: center;
+    }
+    .features-container>p, .features-container h1{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
     }
     .features-list>div p{
         width: 100%;
