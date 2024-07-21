@@ -69,7 +69,7 @@ main .hero .container .mockup img{
 
   margin-right: -100px;
   position: relative;
-  z-index: 8;
+  /* z-index: 8; */
 }
 
 main .container .text-content{
